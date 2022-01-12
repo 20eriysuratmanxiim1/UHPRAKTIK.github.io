@@ -1,22 +1,27 @@
 body {
     background-color: rgb(229, 235, 247);
 }
+
 li {
     list-style: none;
-   }
+}
+
 .kop {
     background-color: blue;
     height: 50px;
 }
+
 .kop p {
     text-align: center;
     color: white;
 }
+
 .header {
     background-color: #26d0c9;
     color: #fff;
     height: 90px;
-   }
+}
+
 .header-logo1 img {
     float: left;
     width: 80px;
@@ -25,7 +30,8 @@ li {
     border-radius: 20px;
     margin-left: 20px;
     margin-top: 6px;
-   }
+}
+
 .header-logo2 {
     float: right;
     font-size: 36px;
@@ -33,7 +39,8 @@ li {
     background-color: red;
     color: yellow;
     border: solid blue;
-   }
+}
+
 .header-list p {
     float: left;
     background-color: blue;
@@ -44,43 +51,51 @@ li {
     width: 70px;
     text-align: center;
     border-width: 2px;
-   }
-.header-list:hover p  {
+}
+
+.header-list:hover p {
     color: yellow;
     background-color: red;
 }
+
 /* /* .main {
     padding: 100px 80px;
 } */
-.shop { 
+.shop {
     background-color: white;
 }
+
 .shop p {
     font-weight: bold;
 }
+
 .shop span {
     color: red;
 }
+
 .kategori {
     background-color: white;
     height: 200px;
     padding-bottom: 15px;
 }
+
 .kategori span {
     font-weight: bold;
 }
+
 .kategori-item {
     float: left;
     padding-left: 50px;
     width: 100px;
 }
+
 .kategori-item p {
     text-align: center;
- width: auto;
- height: auto;
- padding-bottom: 40px;
- width: 150px;
- margin-left: -15px;
+    width: auto;
+    height: auto;
+    padding-bottom: 40px;
+    width: 150px;
+    margin-left: -15px;
 }
 
 .kategori-item img {
@@ -89,22 +104,26 @@ li {
     padding-left: 20px;
     height: 100px;
     border: solid wheat;
-} 
+}
+
 .hotsale {
     float: left;
     background-color: white;
     padding-right: 450px;
 }
+
 .hotsale-item {
     float: left;
     display: block;
     float: left;
     padding-left: 10px;
 }
-.hotsale-p p{
+
+.hotsale-p p {
     color: red;
     font-weight: bold;
 }
+
 .hotsale-item img {
     height: 200px;
     width: 200px;
@@ -112,29 +131,36 @@ li {
     border-radius: 10px;
     border: solid cornsilk;
 }
+
 .hotsale-item p {
     text-align: center;
     background-color: red;
     border-radius: 10px;
-    border: solid blue ;
+    border: solid blue;
     display: block;
     margin-left: 40px;
     color: white;
 }
+
 .hotsale-item:hover p {
     color: red;
-    background-color:yellow;
+    background-color: yellow;
 }
+
 .info p {
     margin-left: 40px;
     display: block;
     float: left;
 }
+
 .info span {
     color: black;
     font-weight: bold;
 }
 
+.info {
+    padding-bottom: 120px;
+}
 
 .footer {
     background-color: #2f5167;
@@ -142,24 +168,28 @@ li {
     height: 120px;
     padding: 40px;
     display: block;
-    margin-top: 850px;
-   }
-   .footer-logo {
+    margin-top: 1000px;
+}
+
+.footer-logo {
     float: left;
     font-size: 84px;
-   }
-   .footer-copyright p {
-       margin-left:auto;
-       margin-right:auto;
-       display:block;
-       color:yellow;
-       padding-top:20px;
-       font-size:18px;
-       text-align:center;
-   }
-   .footer-list {
+}
+
+.footer-copyright p {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: yellow;
+    padding-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer-list {
     float: right;
-   }
-   .footer-list li {
+}
+
+.footer-list li {
     padding-bottom: 20px;
-   }
+}
